@@ -1,0 +1,73 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F1F1F1;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.intro {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.consultation {
+  margin-top: 50px;
+}
+#request-form {
+  height: 600px;
+  width: 700px;
+  border: none
+}
+
+/* Add a media query to make the layout responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 10px;
+  }
+
+  input[type="email"] {
+    width: 80%;
+  }
+
+  footer {
+    padding: 20px 10px;
+  }
+
+  #request-form {
+    width: 800px
+  }
+}
