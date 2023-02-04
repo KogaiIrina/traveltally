@@ -21,7 +21,7 @@ const params = {
       "color": "#FFFFFF",
       "move_probability": 0.6
   },
-  "fps": 60,
+  "fps": 30,
   "canvas_offset": 50
 }
  
