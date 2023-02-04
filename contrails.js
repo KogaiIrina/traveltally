@@ -8,7 +8,7 @@ const params = {
   "img_angle": 90,
   "background_color": "transparent",
   "planes": {
-      "speed": 3,
+      "speed": 5,
       "size": 80,
       "number": 3,
       "double_contrails": true,
