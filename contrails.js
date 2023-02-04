@@ -9,17 +9,17 @@ const params = {
   "background_color": "transparent",
   "planes": {
       "speed": 3,
-      "size": 20,
+      "size": 80,
       "number": 3,
       "double_contrails": true,
-      "contrails_spacing": 0.2
+      "contrails_spacing": 0.3
   },
   "particles": {
-      "size": 0.5,
+      "size": 3,
       "lifespan": 200,
       "number": 200,
       "color": "#FFFFFF",
-      "move_probability": 0.3
+      "move_probability": 0.6
   },
   "fps": 60,
   "canvas_offset": 50
