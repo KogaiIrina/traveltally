@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Introducing TravelTally</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Introducing TravelTally</h1>
-    </header>
-    <div class="container">
-      <p class="intro">
+    <div class="left-container">
+      <div id="contrails"></div>
+      <!-- <p class="intro">
         Are you tired of struggling to keep track of your expenses while
         travelling?<br>
         Say goodbye to the hassle with TravelTally, the ultimate app
@@ -17,12 +14,21 @@
         can easily keep track of all your expenses, stay on budget, and enjoy
         your trip to the fullest. <br> Don't miss out on the chance to be one of the
         first to try out TravelTally - sign up for our beta test below!
-      </p>
-      <iframe
-        id="request-form"
-        title="Sign Up"
-        src="https://docs.google.com/forms/d/e/1FAIpQLSf2x6ZvnH6MpsnTkxKDCd1vnfklDFn7yse-1-rm2HK8C0x6ug/viewform?embedded=true"
-      ></iframe>
+      </p> -->
     </div>
+    <div class="right-container">
+      <p class="intro">
+        Track all your travel expenses<br />
+        and stay on budget<br />
+        with TravelTally
+      </p>
+      <button
+        target="_blank"
+        onclick="window.location.href='https://docs.google.com/forms/d/1dAomSFXU0u1aRMyAwCfrTwFrnE9Uvuno3iBaODs2AZI/edit';"
+      >
+        Sign Up for Beta
+      </button>
+    </div>
+    <script type="module" src="contrails.js"></script>
   </body>
 </html>
