@@ -55,6 +55,7 @@ button {
   box-shadow: 0 0 10px #FFF0DA;
   font-family: Georgia, serif;
   padding: 15px 26px;
+  margin-bottom: 20px;
 }
 
 .intro {
@@ -67,6 +68,9 @@ button {
 }
 
 @media(max-width: 1000px) {
+  #apple {
+    height: 100px;
+  }
   .left-container {
     width: 100%;
   }
@@ -80,7 +84,7 @@ button {
     text-shadow: 0 0 20px #494EBF;
   }
   button {
-    font-size: 56px;
+    font-size: 36px;
     padding: 25px 50px;
     border-radius: 100px;
     box-shadow: 0 0 20px #FFF0DA;
