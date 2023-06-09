@@ -68,8 +68,14 @@ button {
 }
 
 @media(max-width: 1000px) {
-  #apple {
-    height: 100px;
+  .mobile-logo {
+    padding: 5px;
+  }
+  .logos {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    max-height: 200px;
   }
   .left-container {
     width: 100%;
