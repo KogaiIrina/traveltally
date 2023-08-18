@@ -58,6 +58,43 @@ button {
   margin-bottom: 20px;
 }
 
+.privacypolicy {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+#privacyPolicyTitle {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: -20px;
+  margin-top: -20px;
+  align-self: center;
+}
+
+
+p {
+  margin-left: 25px;
+  margin-top: 50px;
+  margin-bottom: -20px;
+  font-size: 20px;
+}
+
+ol {
+  margin-left: 25px;
+  margin-top: 50px;
+  font-size: 20px;
+  margin-bottom: -20px;
+}
+
+
+#lastUpdate {
+  font-size: 30px;
+  font-weight: 500;
+  align-self: center;
+  margin-bottom: -30px;
+}
+
 .intro {
   font-size: 40px;
   font-weight: 300;
